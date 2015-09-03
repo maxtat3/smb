@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent">
+
+	<TextView
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Приложение СМС-мульти-банкинг разработано в рамках учебного курса по Android Development от компании Sintez Technologies"
+			android:textSize="22sp"
+			/>
+
+	<Button
+			android:id="@+id/btn_menu_about_program"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Ok"
+			android:textSize="22sp"
+			/>
+
+</LinearLayout>

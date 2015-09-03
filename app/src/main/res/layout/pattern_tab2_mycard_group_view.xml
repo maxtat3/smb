@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="horizontal"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+		>
+
+	<!--В этом файле находитя шаблон для главной страницы таба [Мои карты]-->
+
+
+
+
+	<ImageView android:id="@+id/imgIcon"
+			   android:layout_width="wrap_content"
+			   android:layout_height="wrap_content"
+			   android:gravity="center_vertical"
+			   android:layout_alignParentTop="true"
+			   android:layout_alignParentBottom="true"
+			   android:layout_marginRight="15dp"
+			   android:layout_marginTop="5dp"
+			   android:layout_marginBottom="5dp"/>
+
+	<TableLayout
+			android:id="@+id/tablelayout"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:shrinkColumns="*"
+			>
+
+		<TableRow>
+			<!--Имя карты пользователя-->
+			<TextView
+					android:id="@+id/txtCardName"
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="5dp"
+					android:textColor="#000000"
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:gravity="left"
+					/>
+		</TableRow>
+
+		<TableRow>
+			<!--Имя банка -->
+			<TextView
+					android:id="@+id/txtBankName"
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="5dp"
+					android:textColor="#000000"
+					android:textSize="10dp"
+					android:gravity="left"
+					/>
+		</TableRow>
+	</TableLayout>
+
+	<!--Этот отрывок кода нужен для получения расстояния между-->
+	<!--левой(логотип, имя карты, нназв. банка) и -->
+	<!--правой(последняя провер сумма и дата баланса) частями -->
+	<!--корневого элемента LIstView-->
+	<TableLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			>
+
+		<TableRow>
+			<TextView
+					android:id="@+id/textGroup31"
+					android:layout_width="70dp"
+					android:layout_height="30dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="5dp"
+					android:textColor="#000000"
+					android:textStyle="bold"
+					android:textSize="20dp"
+					android:gravity="right"
+					/>
+		</TableRow>
+	</TableLayout>
+
+
+	<TableLayout
+			android:id="@+id/tablelayout1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content">
+
+		<TableRow>
+			<!--Отображение последнего  проверенного баланса по конкретной карте -->
+			<TextView
+					android:id="@+id/txtLastSumCheckedBalance"
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="5dp"
+					android:textColor="#000000"
+					android:textStyle="bold"
+					android:textSize="16sp"
+					android:gravity="right"
+					/>
+		</TableRow>
+
+		<TableRow>
+			<!--Отображение даты проверки последнего баланса по конкретной карте -->
+			<TextView
+					android:id="@+id/txtLastDateCheckedBalance"
+					android:layout_width="match_parent"
+					android:layout_height="30dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginTop="5dp"
+					android:textColor="#000000"
+					android:textSize="10sp"
+					android:gravity="right"
+					/>
+		</TableRow>
+	</TableLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<!--<item-->
+			<!--android:id="@+id/menu_settings"-->
+			<!--android:title="Настройки"-->
+	<!--></item>-->
+
+	<item
+		android:id="@+id/menu_banks_informs"
+		android:title="Информация о банках"
+	></item>
+
+	<item
+			android:id="@+id/menu_about_program"
+			android:title="О приложении"
+	></item>
+
+</menu>

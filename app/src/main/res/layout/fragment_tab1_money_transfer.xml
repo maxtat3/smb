@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:background="@drawable/background_portrait"
+		>
+
+
+
+	<!--Введите 16-и значный номер карты, на которую Вы переводите деньги-->
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Введите 16-и значный номер карты, на которую Вы переводите деньги"
+			android:gravity="center_horizontal"
+			android:textSize="16sp"
+			android:textColor="#ff343434"
+			/>
+
+	<EditText
+			android:id="@+id/editTransferCardNumberMT"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:inputType="numberSigned"
+			/>
+
+	<!--Введите сумму для перевода-->
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Введите сумму для перевода"
+			android:layout_gravity="center_horizontal"
+			android:textSize="16sp"
+			android:textColor="#ff343434"
+			/>
+
+	<EditText
+			android:id="@+id/editTransferSumMT"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="center_horizontal"
+			android:inputType="numberSigned"
+			/>
+
+	<!--Выбор валюты-->
+	<TextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Выберите валюту"
+			android:layout_gravity="center_horizontal"
+			android:textSize="16sp"
+			android:textColor="#ff343434"
+			/>
+
+	<LinearLayout
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			>
+
+		<CheckBox
+				android:id="@+id/cbUan"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="UAH"
+				android:textSize="22sp"
+				/>
+		<CheckBox
+				android:id="@+id/cbUsd"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="USD"
+				android:textSize="22sp"
+				/>
+		<CheckBox
+				android:id="@+id/cbEur"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="EUR"
+				android:textSize="22sp"
+				/>
+		<CheckBox
+				android:id="@+id/cbRus"
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:text="RUS"
+				android:textSize="22sp"
+				/>
+
+	</LinearLayout>
+
+	<Button
+			android:id="@+id/btnMoneyTransferMT"
+			android:layout_marginTop="30dp"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:text="Перевести"
+			android:textSize="22sp"
+			/>
+
+
+</LinearLayout>

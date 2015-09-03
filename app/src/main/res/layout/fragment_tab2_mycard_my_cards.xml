@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:id="@+id/frag_cards"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:orientation="vertical"
+			  android:background="@drawable/background_portrait"
+		>
+
+	<ExpandableListView
+			android:id="@+id/myCardsListView"
+			android:childDivider="#ff78d2fb"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:indicatorLeft="250dp"
+			android:indicatorRight="300dp"
+			android:layout_weight="1"
+			/>
+	<Button
+			android:id="@+id/btnAddCard"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:text="Test button"
+			android:textSize="22sp"
+			android:layout_gravity="center_horizontal|bottom"
+			/>
+
+</LinearLayout>

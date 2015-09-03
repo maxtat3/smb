@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+			  android:orientation="vertical"
+			  android:layout_width="match_parent"
+			  android:layout_height="match_parent"
+			  android:fastScrollEnabled="true"
+			  android:background="@drawable/background_portrait"
+		>
+
+
+	<TextView
+			android:id="@+id/txtLastFourDigCard"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="enter last 4 digits your card"
+			android:layout_gravity="center_horizontal"
+			/>
+
+	<EditText
+			android:id="@+id/editTxtLastFourDigCard"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:inputType="number"
+			android:ems="10"
+			android:layout_gravity="center_horizontal"
+			/>
+	<!--========================================-->
+
+
+	<TextView
+			android:id="@+id/txtChooseBank"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="ChooseBank"
+			android:layout_gravity="center_horizontal"
+			/>
+
+
+	<Spinner
+			android:id="@+id/spinnerChooseBank"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			android:entries="@array/banks"
+			/>
+	<!--========================================-->
+
+
+	<TextView
+			android:id="@+id/txtUserCardName"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:text="txtUserCardName"
+			android:layout_gravity="center_horizontal"
+			/>
+
+	<EditText
+			android:id="@+id/editTxtUserCardName"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal"
+			/>
+	<!--========================================-->
+
+
+	<Button
+			android:id="@+id/btnAddCard"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Добавить"
+			android:layout_gravity="center_horizontal"
+			/>
+
+</LinearLayout>

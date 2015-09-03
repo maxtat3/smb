@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<!--название приложения-->
+	<string name="app_name">SMS-мульти-банкинг</string>
+
+
+	<!--названия табов-->
+	<string name="action">Действия с картой</string>
+	<string name="my_cards">Мои карты</string>
+
+
+	<!--названия действий (певый общий экран, Actions.java  fragment_tab1_actions.xml)-->
+	<string name="balance">Баланс</string>
+
+	<string name="replMobTel">Пополнение</string>
+	<string name="mob">мобильного</string>
+
+	<string name="blockCard">Заблокировать</string>
+	<string name="unblockCard">Разблокировать</string>
+	<string name="card">карту</string>
+
+	<string name="moneyTransfer">Перевод</string>
+	<string name="money">денег</string>
+
+
+	<!--Названия банков (совпадают с названиями в БД)-->
+	<string-array name="banks">
+		<item>ПриватБанк</item>
+		<item>Укрсоцбанк(uniCredit)</item>
+		<item>Профин банк</item>
+		<item>ПУМБ</item>
+		<item>Укргазбанк</item>
+	</string-array>
+
+
+
+	<!--Адреса всех банков -->
+	<string-array name="banks_address">
+		<item>вул. Набережна Перемоги, 50, м. Дніпропетровськ, 49094, Україна.\n</item>
+		<item>вул. Ковпака, 29, м. Київ, 03150, Україна.\n</item>
+		<item>вул. Горького, 127, м. Київ, 03150, Україна.\n</item>
+		<item>вул. Лескова, 9, м. Київ, 01011, Україна.\n</item>
+		<item>вул. Сахарова, 78, м. Львів, 79026, Україна.\n</item>
+		<item>Польський узвіз, 11, м. Одеса, 65026, Україна.\n</item>
+		<item>Кловський узвіз, 9/2, м. Київ, 01021, Україна.\n</item>
+		<item>пр. Ілліча, 100а, м. Донецьк, 83052, Україна.\n</item>
+		<item>вул. Університетська, 2а, м. Донецьк, 83001, Україна.\n</item>
+		<item>вул. Червоноармійська (Велика Васильківська), 39, м. Київ, 01004, Україна.\n</item>
+		<item>вул. Смирнова-Ласточкіна, 10а, м. Київ, 04053, Україна.\n</item>
+		<item>вул. Андріївська, 2/12, м.Київ, 04070, Україна.\n</item>
+	</string-array>
+
+
+	<!--Контактные номера телефонов всех банков-->
+	<string-array name="banks_tel">
+		<item>3700 (безкоштовно з мобільних у межах України).\n</item>
+		<item>0-800-5000-20 (безкоштовно з мобільних та стаціонарних телефонів у межах України).\n</item>
+		<item>0-800-50-44-50 (безкоштовно зі стаціонарних телефонів у межах України).\n</item>
+		<item>0-800-500-500.\n</item>
+		<item>0-800-500-8-50 (безкоштовно з мобільних та стаціонарних телефонів у межах України).\n</item>
+		<item>0-800-500-255 (безкоштовно зі стаціонарних телефонів у межах України).\n</item>
+		<item>0-800-500-450 (безкоштовно зі стаціонарних телефонів у межах України).\n</item>
+		<item>062-210-07-07/062-210-24-14 (дзвінки сплачуються відповідно до тарифікації на місцеві, міжміські та
+			міжнародні телефони).\n
+		</item>
+		<item>0-800-500-490 (безкоштовно з мобільних та стаціонарних телефонів у межах України).\n</item>
+		<item>0-800-309-000 (безкоштовно зі стаціонарних телефонів у межах України).\n 358 (короткий номер з мобільного
+			телефона).\n
+		</item>
+		<item>0-800-501-422 (безкоштовно у межах України).\n</item>
+		<item>0-800-505-800.\n</item>
+	</string-array>
+
+
+	<!--Веб сайты всех банков-->
+	<string-array name="banks_site">
+		<item>http://privatbank.ua</item>
+		<item>http://www.unicredit.ua</item>
+		<item>http://www.eximb.com</item>
+		<item>http://www.aval.ua</item>
+		<item>http://www.kredobank.com.ua</item>
+		<item>http://marfinbank.ua</item>
+		<item>http://www.pravex.com</item>
+		<item>http://www.profinbank.com</item>
+		<item>http://pumb.ua</item>
+		<item>http://www.ukrgasbank.com</item>
+		<item>http://www.ukrinbank.com</item>
+		<item>http://www.ukrsibbank.com</item>
+	</string-array>
+
+</resources>
